@@ -1,8 +1,25 @@
 aid: stockeld-dreamery
 name: Stockeld Dreamery
-description: 'Stockeld Dreamery is a company surfaced as a portfolio company of creandum, northzone and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Stockeld Dreamery is a Swedish food-tech company founded in Stockholm
+  in early 2019 by Sorosh Tavakoli (previously founder of the video-advertising company
+  Videoplaza) to reinvent animal-based staples as plant-based alternatives, starting
+  with cheese. The company develops and manufactures fermented, legume-based cultured
+  cheese products — including a cream cheese and a melting cheese aimed at foodservice
+  — as a sustainable substitute for dairy. Backed by venture investors including Creandum
+  and Northzone, Stockeld Dreamery operates as a consumer packaged-goods brand and
+  does not currently publish a public API or developer program.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/618aa812cb82f6a6078ee18b/618baf78291add81bdea271a_logo-white.svg
 url: https://raw.githubusercontent.com/api-evangelist/stockeld-dreamery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Food Tech
+- Plant-Based
+- Sustainability
+- CPG
+- Foodservice
+- Sweden
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/stockeld-dreamery-domain-security.yml
 - type: Website
   url: https://www.stockeld.com/
+- type: About
+  url: https://www.stockeld.com/about-us
+- type: Support
+  url: https://www.stockeld.com/contact
+- type: PrivacyPolicy
+  url: https://www.stockeld.com/cookie-policy
+- type: TermsOfService
+  url: https://www.stockeld.com/cookie-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/stockeld/
+- type: Instagram
+  url: https://www.instagram.com/stockeld_dreamery/
+- type: TikTok
+  url: https://www.tiktok.com/@stockeld.dreamery?lang=en
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

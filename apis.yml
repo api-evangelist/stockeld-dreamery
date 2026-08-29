@@ -8,6 +8,17 @@ description: 'Stockeld Dreamery is a Swedish food-tech company founded in Stockh
   — as a sustainable substitute for dairy. Backed by venture investors including Creandum
   and Northzone, Stockeld Dreamery operates as a consumer packaged-goods brand and
   does not currently publish a public API or developer program.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
